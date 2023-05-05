@@ -1,0 +1,209 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  font-family: "Montserrat";
+}
+
+/* title section */
+
+.title-section {
+  background-color: #ff4c68;
+  color: white;
+  padding-bottom: 0;
+}
+
+
+.container-fluid{
+  padding: 5% 13%;
+}
+
+/* navigation bar */
+
+.navbar{
+  padding: 0;
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+  font-family: Ubuntu;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+/* title-grid-table */
+
+h1{
+  font-family:  "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.row{
+  padding-top: 2rem;
+}
+
+.button-padding{
+  margin: 5% 3% 5% 0;
+}
+
+.phone-image{
+  /* width: 50%; */
+  height: 500px;
+  width: auto;
+  transform: rotate(30deg);
+  margin-left: 100px;
+  position:absolute;
+
+}
+
+/* features  section*/
+
+.features-section{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+
+}
+
+
+.features-text{
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.icon-edit{
+  color: #ef8172;
+}
+
+.fa-check-circle:hover{
+  color: #ff4c68;
+}
+
+.fa-bullseye:hover{
+  color: #ff4c68;
+}
+
+.fa-heart:hover{
+  color: #ff4c68;
+}
+
+.features-text-heading{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.features-text-description{
+  color: #8f8f8f;
+}
+
+
+/* testimonial section */
+
+.testimonials-section {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 4% 5%;
+  color: white;
+}
+
+.testimonial-text{
+  font-weight: normal;
+  padding: 0 15%;
+}
+
+.testimonial-image {
+  width: 100px;
+  border-radius: 100%;
+  margin: 2rem;
+}
+
+/* press-section */
+
+.press-section{
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 2% 3% 3%;
+}
+
+.press-image{
+  margin: 20px 20px 40px;
+  width: 15%;
+}
+
+
+/* pricing section */
+
+.pricing-section{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-heading{
+  font-weight: bold;
+}
+
+.card{
+  margin: 3% 5%;
+}
+
+
+
+/* cta-section */
+.cta-section{
+  background-color: #ff4c68;
+  text-align: center;
+  color: #fff;
+  padding: 100px 15%;
+}
+
+.cta-text{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: 50px;
+}
+
+.cta-button{
+  margin: 15px;
+}
+
+
+
+/* footer-section */
+
+.footer-section{
+  text-align: center;
+  margin: 100px;
+  background-color: #fff;
+
+}
+
+.icon{
+  padding: 10px;
+}
+
+.footer-text{
+  padding-top: 10px;
+  font-size: 15px;
+  color: #8f8f8f;
+}
+
+@media (max-width:1000px) {
+  .phone-image{
+    position: static;
+    /* width: 40%; */
+    transform: rotate(0);
+    margin: 0;
+  }
+
+  .title-section{
+    text-align: center;
+  }
+}
